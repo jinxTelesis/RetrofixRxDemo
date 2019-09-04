@@ -9,7 +9,7 @@ import com.google.gson.JsonParseException;
 import java.lang.reflect.Type;
 
 public class GithubRepoDeserializer implements JsonDeserializer<GithubRepo> {
-    
+
     @Override
     public GithubRepo deserialize(JsonElement json, Type typeOfT, JsonDeserializationContext context) throws JsonParseException {
         GithubRepo githubRepo = new GithubRepo();
